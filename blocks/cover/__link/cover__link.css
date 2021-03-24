@@ -1,9 +1,9 @@
-.cover__image_link {
+.cover__link {
   grid-area: 1/2 / 1/2;
   opacity: .7;
   transition: opacity .2s ease-in-out;
 }
 
-.cover__image_link:hover {
+.cover__link:hover {
   opacity: .2;
 }
