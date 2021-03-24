@@ -1,0 +1,8 @@
+.cover__image_link {
+  grid-area: 1/2 / 1/2;
+  opacity: .7;
+}
+
+.cover__image_link:hover {
+  opacity: .2;
+}

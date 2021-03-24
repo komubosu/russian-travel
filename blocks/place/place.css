@@ -1,0 +1,7 @@
+.place {
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 984px;
+  justify-content: space-between;
+}
