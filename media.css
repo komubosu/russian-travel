@@ -123,7 +123,7 @@
 
   .places {
     margin: 64px 0 66px;
-    gap: 64px
+    gap: 64px;
   }
   .place__title {
     margin: 0;
@@ -164,7 +164,7 @@
     max-width: 186px;
     grid-template-columns: 186px;
     grid-template-rows: 248px 62px;
-    gap: 48px
+    gap: 48px;
   }
   .footer__links {
     flex-wrap: nowrap;
