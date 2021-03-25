@@ -1,5 +1,10 @@
 .place__website {
   margin-bottom: 48px;
   align-self: flex-end;
-  width: 484px;
+}
+
+@media screen and (max-width: 550px) {
+  .place__website {
+    margin: 32px 16px;
+  }
 }

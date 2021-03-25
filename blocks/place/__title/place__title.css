@@ -5,6 +5,21 @@
   line-height: 1.06;
   margin: 0;
   margin-bottom: 48px;
-  max-width: 460px;
-  max-height: 152px;
+  transition: font-size 2s, line-height 2s, margin-left;
+}
+
+@media screen and (max-width: 800px) {
+  .place__title {
+    font-size: 42px;
+    line-height: 1.1;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .place__title {
+    margin: 0;
+    margin-left: 16px;
+    font-size: 32px;
+    line-height: 1.09;
+  }
 }

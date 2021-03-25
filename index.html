@@ -8,13 +8,11 @@
 </head>
 <body class="root">
   <header class="header">
-    <div class="header__logo"></div>
-    <nav>
+    <img src="images/header__logo.svg" class="header__logo">
       <ul class="header__lang-links">
         <li><a href="#" target="_self" class="header__lang-link header__lang-link_active">Ru</a></li>
         <li><a href="#" target="_self" class="header__lang-link">En</a></li>
       </ul>
-    </nav>
   </header>
   <main class="content">
     <section class="lead">
@@ -27,11 +25,18 @@
     <section class="intro">
       <h2 class="intro__title">Чего мы там не видели?</h2>
       <p class="intro__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая вселенная с ласковым морем юга, густыми лесами Саян и суровыми льдами плато Путорана. А ещё увидеть все эти красоты можно без миллионов на счету, загранпаспорта и многочасовых перелетов. Как, например, Вера Башмакова — смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.</p>
-      <p class="intro__list">Часовых поясов <span class="intro__span">11</span></p>
-      <p class="intro__list">Объектов природного наследия ЮНЕСКО <span class="intro__span">12</span></p>
-      <p class="intro__list">Объектов культурного наследия ЮНЕСКО  <span class="intro__span">16</span></p>
-      <p class="intro__list">Природных заповедников <span class="intro__span">105</span></p>
-      <p class="intro__list">Аэропортов <span class="intro__span">241</span></p>
+      <ul class="intro__list">
+        <li><p class="intro__facts">Часовых поясов <span class="intro__span">11</span></p></li>
+        <li><p class="intro__facts">Объектов природного наследия ЮНЕСКО <span class="intro__span">12</span></p></li>
+        <li><p class="intro__facts">Объектов культурного наследия ЮНЕСКО  <span class="intro__span">16</span></p></li>
+        <li><p class="intro__facts">Природных заповедников <span class="intro__span">105</span></p></li>
+        <li><p class="intro__facts">Аэропортов <span class="intro__span">241</span></p></li>
+      </ul>
+      
+      
+      
+      
+      
     </section>
 
     <section class="photo-grid">
@@ -110,15 +115,18 @@
     </section>
 
     <section class="cover">
-      <a class="cover__link" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank"><img class="cover__image" src="./images/cover__image.png" alt="Фотография поездов"></a>
-      <div class="cover__text">
-        <h2 class="cover__title">До Байкала «на собаках»</h2>
-        <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
-      </div>
+      <a class="cover__link" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank">
+        <img class="cover__image" src="./images/cover__image.png" alt="Фотография поездов">
+        <div class="cover__text">
+          <h2 class="cover__title">До Байкала «на собаках»</h2>
+          <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
+        </div>
+      </a>
     </section>
   </main>
 
   <footer class="footer">
+    <nav>
     <ul class="footer__links">
       <li><a href="https://yandex.ru/maps" target="_blank" class="footer__link">Карты</a></li>
       <li><a href="https://yandex.ru/pogoda" target="_blank" class="footer__link">Погода</a></li>
@@ -126,6 +134,7 @@
       <li><a href="https://calendar.yandex.ru" target="_blank" class="footer__link">Календарь</a></li>
       <li><a href="https://travel.yandex.ru" target="_blank" class="footer__link">Путешествия</a></li>
     </ul>
+    </nav>
     <p class="footer__copyright">© 2021. Михаил Докучаев</p>
   </footer>
 </body>

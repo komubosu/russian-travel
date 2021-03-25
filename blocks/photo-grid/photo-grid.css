@@ -4,3 +4,22 @@
   grid-template: repeat(auto-fit, minmax(213px, 1fr)) / repeat(auto-fit, minmax(284px, 1fr));
   gap: 16px;
 }
+
+@media screen and (max-width: 1024px) {
+  .photo-grid {
+    max-width: 928px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 976px) {
+  .photo-grid {
+    margin: 0 24px;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .photo-grid {
+    margin: 0 16px;
+  }
+}

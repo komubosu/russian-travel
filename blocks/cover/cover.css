@@ -1,5 +1,4 @@
 .cover {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1184px));
-  justify-content: center;
+  max-width: 1184px;
+  margin: auto;
 }

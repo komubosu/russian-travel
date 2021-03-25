@@ -7,4 +7,17 @@
   line-height: 1.4;
   letter-spacing: 0.15em;
   text-transform: uppercase;
+  transition: margin-left 1s;
+}
+
+@media screen and (max-width: 976px) {
+  .lead__caption {
+    margin-left: 24px;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .lead__caption {
+    margin-left: 16px;
+  }
 }
