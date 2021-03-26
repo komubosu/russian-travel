@@ -5,7 +5,3 @@
   justify-content: center;
   grid-area: 1/2 / 1/2;
 }
-
-.cover__link:hover .cover__image{
-  opacity: .2;
-}

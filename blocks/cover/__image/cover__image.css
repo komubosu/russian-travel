@@ -4,3 +4,7 @@
   opacity: .7;
   transition: opacity .2s ease-in-out;
 }
+
+.cover__link:hover .cover__image {
+  opacity: .2;
+}
