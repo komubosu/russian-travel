@@ -18,6 +18,6 @@
 * grid
 * адаптивная верстка
 
-**Картинки**
+**Проект на GitHub Pages**
 
 * [Ссылка на проект в GitHub Pages](https://komubosu.github.io/russian-travel/)
